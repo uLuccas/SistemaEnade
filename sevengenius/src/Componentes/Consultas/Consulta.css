@@ -1,0 +1,79 @@
+.areabusca {
+  display: flex;
+  width: 810px;
+  height: 400px;
+  flex-direction: row;
+  border-radius: 20px;
+  justify-content: center;
+  background-color: white;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 1em;
+  box-shadow: -2px 4px 8px 1px #00000085;
+}
+
+.camposListar {
+  display: flex;
+  width: 700px;
+  justify-content: space-between;
+}
+
+/* ===================================== Estilizacao da listagem ==================================== */
+
+.texts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 45%;
+  text-align: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.container {
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  background-color: rgba(231, 231, 231, 0.959);
+  width: 100%;
+  border-radius: 15px;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  box-shadow: -2px 4px 8px 1px #00000085;
+}
+
+.container button {
+  margin: 10px 10px 5px 10px;
+}
+
+.container textarea {
+  background-color: transparent;
+  color: black;
+  height: 30px;
+  width: 200px;
+  resize: none;
+  border-color: transparent;
+  border: solid 0px
+  
+}
+
+.arealistagem {
+    display: flex;
+    width: 810px;
+    height: auto;
+    flex-direction: column;
+    border-radius: 20px;
+    justify-content: center;
+    background-color: white;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 1em;
+  }
+
+  div +div {
+    margin: 10px;
+  }

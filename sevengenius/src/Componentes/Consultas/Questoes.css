@@ -1,0 +1,57 @@
+.areaQuestao{
+    display: flex;
+    width: 810px;
+    height: auto;
+    flex-direction: row;
+    border-radius: 20px;
+    justify-content: center;
+    background-color: white;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 1em;
+    box-shadow: -2px 4px 8px 1px #00000085;
+}
+
+.isertQuestoes{  
+    display: flex;
+    width: 90%;
+    height: 90px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.campos{
+    display: flex;
+    width: 690px;
+    justify-content: space-between;
+}
+
+.organizaQuestao{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+}
+
+.textPadrao{
+width: 100px;
+height: 30px;
+resize: none;
+}
+
+.divbtn{
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    height: 70px;
+    justify-content: center;
+    align-content: center;
+}
+
+.divdafoto{
+    width: 100%;
+    height: auto;
+}

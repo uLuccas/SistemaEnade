@@ -1,0 +1,63 @@
+.DropdownCursos {
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.SubmenuCursos li a {
+  display: block;
+  padding: 1.25rem 3rem;
+  width: 5rem;
+  height: 63px;
+  color: whitesmoke;
+  cursor: pointer;
+}
+.estilizacao {
+  margin-right: 25px;
+  width: 150px;
+  height: 800px;
+  background-color: #f4f5f7;
+}
+
+.nav {
+  color: black;
+  width: 11rem;
+  background-color: #f4f5f7;
+}
+h3{
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+span{
+    font-weight: 500;
+}
+.nav ul {
+  display: flex;
+  /* flex-direction: column;
+  align-items: flex-start; */
+}
+.nav li {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.25rem 1rem;
+}
+
+.nav li a span{
+    transition: filter 0.2s;
+}
+.nav li a span:hover{
+    filter:opacity(0.55);
+}
+.navlink {
+  cursor: pointer;
+}
+.nav-link {
+  cursor: pointer;
+}
+
+img{
+    padding-right: 0.25rem;
+}

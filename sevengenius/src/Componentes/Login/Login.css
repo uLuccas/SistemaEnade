@@ -1,0 +1,60 @@
+.tela {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.all {
+  width: 420px;
+
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(219, 217, 217);
+  border-radius: 10px;
+}
+
+.titulo {
+  background-color: #1d283c;
+  border-radius: 15px;
+  width: 420px;
+  height: 100px;
+  margin: 0px 0px 15px 0px;
+  flex-direction: row;
+  display: flex;
+}
+.fotoo {
+  background-image: url(../../assets/darkBG.png);
+  width: 240px;
+  height: 100px;
+  border-radius: 15px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 0px;
+}
+.errologin{
+  color: red;
+}
+.lg{
+  width:190px
+}
+
+.titulo h2,
+p {
+  color: white;
+}
+.formLogin {
+  display: flex;
+  flex-direction: column;
+}
+
+.btnLogin {
+  margin: 5px;
+  color: white;
+  background-color: #1e3bb3;
+  border: solid 1px;
+  border-color: #1e3bb3;
+  border-radius: 5px;
+  height: 30px;
+}

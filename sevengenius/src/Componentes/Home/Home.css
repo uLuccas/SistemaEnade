@@ -1,0 +1,104 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f5f7;
+  width: calc(100% - 150px);
+}
+
+.card {
+  border-radius: 15px;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  background-color: #1d283c;
+  color: aliceblue;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 10px;
+}
+
+.bgfoto {
+  background-image: url(../../assets/darkBG.png);
+  border-radius: 15px;
+  width: 480px;
+  height: 100%;
+  margin: 0px;
+}
+.rowflex-grow {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.collg8 {
+  width: 639px;
+  background-color: aquamarine;
+}
+
+.edicoes {
+  display: flex;
+  background-color: rgba(0, 89, 255, 0.986);
+  border-radius: 20px;
+  width: 400px;
+  height: 200px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  box-shadow: -2px 4px 8px 1px #00000085;
+}
+
+.totalDisciplinas {
+  display: flex;
+  background-color: rgba(0, 89, 255, 0.986);
+  border-radius: 20px;
+  width: 250px;
+  height: 200px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  box-shadow: -2px 4px 8px 1px #00000085;
+}
+
+.cardPrevisao {
+  width: 500px;
+  height: 200px;
+  background-color: white;
+  border-radius: 20px;
+  margin: 10px;
+  box-shadow: -2px 4px 8px 1px #00000085;
+}
+
+.cardAnotacoes {
+  width: 300px;
+  height: 200px;
+  background-color: white;
+  border-radius: 20px;
+  margin: 10px;
+  box-shadow: -2px 4px 8px 1px #00000085;
+}
+
+.ultimasConsultas {
+  margin-left: 10px;
+  border-radius: 20px;
+  height: auto;
+  background-color: white;
+  padding: 10px;
+  width: 750px;
+  box-shadow: -2px 4px 8px 1px #00000085; 
+}
+
+.table {
+  border-radius: 20px;
+  height: auto;
+}

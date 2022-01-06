@@ -1,0 +1,27 @@
+.Container {
+  width: 100%;
+  top: 0px;
+  background-color: #f4f5f7;
+}
+.Content {
+  display: flex;
+  align-items: center;
+  padding: 2rem 2rem 3rem;
+  justify-content: space-between;
+}
+.logoNome{
+    width: 17rem;
+    display: flex;
+}
+/* .usuario{
+    
+} */
+h1{
+    font-weight: 500;
+}
+span{
+    font-weight: 600;
+}
+.logo{
+    width: 4rem;
+}

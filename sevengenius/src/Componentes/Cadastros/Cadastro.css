@@ -1,0 +1,124 @@
+.allUser {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+/* .conte{
+    display: flex;
+} */
+
+.formCadastro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 140px;
+}
+
+.campos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnUser {
+  display: flex;
+}
+
+.telaCadastro {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.head {
+  width: 100%;
+}
+.insert {
+  display: flex;
+  width: 700px;
+  height: 175px;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.insertCurso {
+  display: flex;
+  width: 400px;
+  height: 175px;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+}
+.insert input {
+  margin: 10px;
+}
+
+.areaCurso {
+  background-color: white;
+  width: 600px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 20px;
+  align-items: center;
+  align-content: space-around;
+  box-shadow: -2px 4px 8px 1px #00000085;
+}
+
+.arrumaCampo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 190px;
+}
+
+.divbtn button {
+  margin: 15px;
+}
+
+/* =================================== TELA DE CADASTRO DE USUARIO ===================================== */
+
+.area {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  width: 400px;
+  box-shadow: -2px 4px 8px 1px #00000085;
+  align-content: center;
+  border-radius: 15px;
+}
+
+.engloba {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin:10px;
+}
+.engloba input {
+  width: 220px;
+  margin: 10px;
+}

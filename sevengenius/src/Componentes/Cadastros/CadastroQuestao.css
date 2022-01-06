@@ -1,0 +1,98 @@
+.head {
+  width: 100%;
+}
+.isertQuestao {
+  display: flex;
+  width: 540px;
+  height: 90px;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.organiza {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.numeroEdicao {
+  display: flex;
+  width: 100%;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.isertQuestao input {
+  margin: 10px;
+}
+
+.areaQuestao {
+  background-color: white;
+  width: 800px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  border-radius: 20px;
+  justify-content: flex-start;
+}
+
+.divbtn button {
+  margin: 15px;
+}
+
+.inputSigla {
+  width: 100px;
+}
+
+.textEnunciado {
+  width: 770px;
+  height: 120px;
+  resize: none;
+}
+
+.optativa {
+  display: flex;
+  width: 100%;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+}
+
+.enunciado {
+  display: flex;
+  flex-direction: column;
+}
+
+.img {
+  width: 180px;
+  height: 150px;
+  background-color: transparent;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/d4/Font_Awesome_5_solid_cloud-upload-alt.svg);
+  cursor: pointer;
+}
+
+.resposta {
+  width: 60%;
+}
+
+.divbtn {
+  width: 100%;
+}
+
+.uploadImg {
+  width: 1px;
+  height: 1px;
+}
+
+/* div + div {
+  margin: 10px;
+} */
